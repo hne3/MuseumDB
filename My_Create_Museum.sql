@@ -1,0 +1,7 @@
+CREATE TABLE piece(piece_ID INT NOT NULL, piece_name VARCHAR(45) NOT NULL, piece_type VARCHAR(20) NOT NULL, artist VARCHAR(45), year_created INT, description BLOB, available BOOL NOT NULL, PRIMARY KEY (piece_id));
+CREATE TABLE exhibit(exhibit_ID INT NOT NULL, exhibit_name VARCHAR(45) NOT NULL, start_date DATE NOT NULL, end_date DATE, location VARCHAR(45) NOT NULL, PRIMARY KEY (exhibit_ID));
+CREATE TABLE donor(donor_ID INT NOT NULL, donor_name VARCHAR(45), address VARCHAR(45), PRIMARY KEY (donor_ID));
+CREATE TABLE curator(curator_ID INT NOT NULL, curator_name VARCHAR(45) NOT NULL, expertise VARCHAR(45) NOT NULL, start_date DATE NOT NULL, end_date DATE, PRIMARY KEY (curator_ID));
+CREATE TABLE gives(donor_ID INT NOT NULL, piece_ID INT NOT NULL, donation_date DATE NOT NULL, notes BLOB, PRIMARY KEY(donor_ID, piece_ID),  FOREIGN KEY (donor_ID) REFERENCES donor(donor_ID), FOREIGN KEY (piece_ID) REFERENCES piece(piece_ID));
+CREATE TABLE curates(curator_ID INT NOT NULL, exhibit_ID INT NOT NULL, start_date DATE NOT NULL, end_date DATE, PRIMARY KEY(curator_ID, exhibit_ID),  FOREIGN KEY (exhibit_ID) REFERENCES exhibit(exhibit_ID), FOREIGN KEY (curator_ID) REFERENCES curator(curator_ID));
+CREATE TABLE exhibit_contains(exhibit_ID INT NOT NULL, piece_ID INT NOT NULL, start_date DATE NOT NULL, end_date DATE, PRIMARY KEY(exhibit_ID, piece_ID), FOREIGN KEY (exhibit_ID) REFERENCES exhibit(exhibit_ID), FOREIGN KEY (piece_ID) REFERENCES piece(piece_ID));
