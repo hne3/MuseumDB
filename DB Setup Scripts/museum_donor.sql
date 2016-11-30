@@ -36,7 +36,7 @@ CREATE TABLE `donor` (
 
 LOCK TABLES `donor` WRITE;
 /*!40000 ALTER TABLE `donor` DISABLE KEYS */;
-INSERT INTO `donor` VALUES (0,'Leonard C. Hanna, Jr.','123 Euclid Ave.'),(1,'Dr. Norman Zaworski','432 Mayfield Rd.'),(2,'James E. and Elizabeth J. Ferrell','234 Cornell Rd.'),(3,'George Gund III','111 Adelbert Rd.'),(4,'Dori and Daniel Rootenberg','827 Martin Luther King Jr. Drive');
+INSERT INTO `donor` VALUES (0,'Leonard C. Hanna, Jr.','123 Euclid Ave.'),(1,'Dr. Norman Zaworski','432 Mayfield Rd.'),(2,'James E. and Elizabeth J. Ferrell','234 Cornell Rd.'),(3,'George Gund III','111 Adelbert Rd.'),(4,'Dori and Daniel Rootenberg','827 Martin Luther King Jr. Drive'),(5,'Delia E. Holden','223 Adelbert Rd.'),(6,'Mrs. George S. Lockwood, Jr.','11400 Euclid Ave.'),(7,'Barbara Dennis Petrequin','324 Carlton Rd.');
 /*!40000 ALTER TABLE `donor` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-11-28 23:32:35
+-- Dump completed on 2016-11-30 13:49:18

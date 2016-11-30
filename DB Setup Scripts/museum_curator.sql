@@ -38,7 +38,7 @@ CREATE TABLE `curator` (
 
 LOCK TABLES `curator` WRITE;
 /*!40000 ALTER TABLE `curator` DISABLE KEYS */;
-INSERT INTO `curator` VALUES (0,'Michael Bennett','Greek and Roman Art','2013-09-01',NULL),(1,'Sooa Im McCormick','Asian Art','2015-04-29',NULL),(2,'Heather Lemonedes','Chief Curator','2000-02-21',NULL);
+INSERT INTO `curator` VALUES (0,'Michael Bennett','Greek and Roman Art','2013-09-01',NULL),(1,'Sooa Im McCormick','Asian Art','2015-04-29',NULL),(2,'Heather Lemonedes','Chief Curator','2000-02-21',NULL),(3,'Mark Cole','American Sculpture and Painting','2006-03-04',NULL),(4,'James Delaney','American Sculpture and Painting','1994-07-22','2006-02-01');
 /*!40000 ALTER TABLE `curator` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-11-28 23:32:35
+-- Dump completed on 2016-11-30 13:49:19

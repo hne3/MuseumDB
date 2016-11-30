@@ -40,7 +40,7 @@ CREATE TABLE `gives` (
 
 LOCK TABLES `gives` WRITE;
 /*!40000 ALTER TABLE `gives` DISABLE KEYS */;
-INSERT INTO `gives` VALUES (0,0,'2012-02-01','Via the Leonard C. Hanna, Jr. Fund'),(0,5,'2011-12-12',NULL),(1,1,'2009-01-01','Gift of Dr. Norman Zaworksi'),(2,2,'2005-02-01','Gift of James E. and Elizabeth J. Ferrell'),(3,3,'2015-01-11','Gift from the Collection of George Gund III'),(4,4,'2011-11-11',NULL);
+INSERT INTO `gives` VALUES (0,0,'2012-02-01','Via the Leonard C. Hanna, Jr. Fund'),(0,5,'2011-12-12',NULL),(1,1,'2009-01-01','Gift of Dr. Norman Zaworksi'),(2,2,'2005-02-01','Gift of James E. and Elizabeth J. Ferrell'),(3,3,'2015-01-11','Gift from the Collection of George Gund III'),(4,4,'2011-11-11',NULL),(5,7,'2000-04-04',NULL),(6,8,'2001-02-17','Gift of Mrs. George S. Lockwood, Jr. in loving memory of her husband.'),(7,9,'1980-05-05',NULL),(7,10,'1981-03-12',NULL),(7,11,'1980-05-05',NULL),(7,12,'1981-12-12',NULL),(7,13,'1981-03-12',NULL);
 /*!40000 ALTER TABLE `gives` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-11-28 23:32:35
+-- Dump completed on 2016-11-30 13:49:19

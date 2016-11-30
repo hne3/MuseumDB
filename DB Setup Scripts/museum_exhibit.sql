@@ -38,7 +38,7 @@ CREATE TABLE `exhibit` (
 
 LOCK TABLES `exhibit` WRITE;
 /*!40000 ALTER TABLE `exhibit` DISABLE KEYS */;
-INSERT INTO `exhibit` VALUES (0,'Greek and Roman Art','1940-02-21',NULL,'Level 1 1916 Building'),(1,'Chinese Art','1971-12-21',NULL,'Level 2 West Wing'),(2,'Portable Objects from Southeast Africa','2011-04-16','2012-02-26','Level 1 1916 Building');
+INSERT INTO `exhibit` VALUES (0,'Greek and Roman Art','1940-02-21',NULL,'Level 1 1916 Building'),(1,'Chinese Art','1971-12-21',NULL,'Level 2 West Wing'),(2,'Portable Objects from Southeast Africa','2011-04-16','2012-02-26','Level 1 1916 Building'),(3,'Viktor Schreckengost and 20th-Century Design','2000-12-11','2001-02-04','Level 2 West Wing'),(4,'American Sculpture and Painting','2010-02-05',NULL,'Level 1 West Wing'),(5,'Egyptian and Ancient Near-Eastern Art','1990-11-21',NULL,'Level 2 West Wing');
 /*!40000 ALTER TABLE `exhibit` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-11-28 23:32:34
+-- Dump completed on 2016-11-30 13:49:18
